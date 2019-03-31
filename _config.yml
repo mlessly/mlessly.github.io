@@ -1,0 +1,54 @@
+# Site settings
+name: Michelle Lessly Blackburn, M.Ed., D.LP.
+url: "https://michellelessly.com"
+
+google_analytics: "UA-82134186-1"
+
+disqus: michelle-lessly-m-ed-d-lp
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+show_excerpts: true
+
+exclude:
+  - .idea
+
+plugins:
+  - jekyll-feed
+  - jekyll-menus
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+paginate: 10
+
+papers:
+  - title: The De-identification of MOOC Datasets to Demonstrate the Potential for FERPA Compliance (Doctoral Thesis)
+    url: /files/2016/08/M.-Lessly-Thesis.pdf
+    summary: MOOC providers have access to big data concerning how their users learn.
+      This data, which is often used for educational research, also includes
+      users’ personally identifiable information (PII). FERPA protects PII and
+      the educational records of students', but this protection does not
+      currently extend to MOOC providers or their users. The replication
+      study, coupled with a legal analysis, suggest FERPA may not be the 
+      proper statute to regulate the privacy protections MOOC providers
+      afford their users. Rather, the U.S. Department of Education and
+      Congress should promulgate policy that outlines the minimum privacy
+      standards MOOC providers and other disruptive technologies afford their 
+      users.
+  - title: "Questions of Compliance: Is Title IX Applicable to MOOCs?"
+    url: /files/2016/08/Quantitative-Poster-Presentation.pdf
+    summary: "Requiring MOOCs to comply with federal education legislation may lead to fundamental changes in what defines an enrolled student, educational record, and liability management. In an attempt to better understand this issue, this pilot study seeks to the answer the question: Do higher education professionals think MOOCs should be required to comply with Title IX?"
+  - title: Response to Proposed August 8, 2015 FERPA Amendment
+    url: /files/2016/08/DCL-FERPA-and-HIPAA.pdf
+    summary: "On August 8, 2015, the U.S. Department of Education announced a long anticipated proposed amendment: to include HIPAA exemptions within FERPA. This paper examines the merit of such an amendment within the context of the existing concerns regarding the effectiveness of FERPA."
+  - title: "Faculty and Staff Perceptions of FERPA: A Qualitative Pilot Study"
+    url: /files/2016/08/Qualitative-Pilot-Study-Analysis.pdf
+    summary: This study explores the compliance concerns faced by colleges and universities by asking how can the recommendations put forth by higher education professionals modify FERPA to meet the developmental and mental health needs of today’s college students? This paper highlights the areas in which FERPA needs improvement and provides recommendations from practitioners for amendments to meet the needs changing of faculty, staff, students, and families.
+  - title: Statutory Tools of Interpretation as Employed in _King v. Burwell_ (2015)
+    url: /files/2016/08/King-v.-Burwell.pdf
+    summary: This paper contends the Government should prevail in King v. Burwell using the statutory interpretation tools of textualism, cannons of construction, including the plain meaning rule, presumption of consistent usage, whole act rule, and absurd results doctrine, as well as the ancillary application of Chevron Deference.
+  - title: The Influences of Legal Realism in _Plessy_, _Brown_ and _Parents_ _Involved_
+    url: /files/2016/08/Consitutional-Theory-and-Brown.pdf
+    summary: This paper will explore the merits of the theory of legal realism in Brown’s lineage including Plessy v. Ferguson (1896) and Parents Involved in Community Schools v. Seattle School District No. 1 (2007), as well as how this theory serves as the change agent for the embedded legal justification of segregation.
